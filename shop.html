@@ -10,15 +10,15 @@
     </head>
     <body>
         <section>
-            <header>
+            <header class="header-pc">
                 <nav class="nav-logo">
                     <ul>
                         <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#home">CONSULTATION</a></li>
+                        <li><a href="#CONSULTATION">CONSULTATION</a></li>
                         <li class="logo light"><h1>sooth</h1></li>
-                        <li><a href="#team"><img src="./assets/img/busqueda.png" alt="icono busqueda"></a></li>
-                        <li><a href="#portfolio">CART</a></li>
-                        <li><a href="#contact">LOGIN</a></li>
+                        <li><a href="#"><img src="./assets/img/busqueda.png" alt="icono busqueda"></a></li>
+                        <li><a href="#cart">CART</a></li>
+                        <li><a href="#login">LOGIN</a></li>
                     </ul>
                 </nav>
                 <nav id="nav-abajo">
@@ -31,17 +31,31 @@
                     </ul>
                 </nav>
             </header>
-            <div class="inicio-shop flex">
-                <div class="container-inicio">
-                    <div class="texto" id="shop-texto">
-                        <h1>All Natural <br> Psoriasis Remedies.</h1>
-                        <h3>A healthier you from the inside out. We’ve sourced the <br> cleanest ingredients to create a line of clean skin care <br> treatments that leave you feeling your best</h3>
-                    </div>  
+            <div class="header-responsive">
+                <div class="flex">
+                    <img src="./assets/img/responsive/menu.png" alt="menu">
+                    <h1 class="logo light">sooth</h1>
                 </div>
+                <div>
+                    <a href="#team"><img src="./assets/img/busqueda.png" alt="icono busqueda"></a>
+                    <a href="#portfolio">CART</a>
+                </div>
+            </div>
+            <div class="inicio-shop flex">
+            </div>
+            <div class="container-inicio">
+                <div class="texto" id="shop-texto">
+                    <h1>All Natural <br> Psoriasis Remedies.</h1>
+                    <h3>A healthier you from the inside out. We’ve sourced the <br> cleanest ingredients to create a line of clean skin care <br> treatments that leave you feeling your best</h3>
+                </div>  
             </div>
         </section>
         <section id="shop-page">
-            <div class="container end">
+            <div class="container end column">
+                <div class="categorias-responsive">
+                        <h3><strong>Category</strong></h3>
+                        <h1>+</h1>
+                </div>
                 <div class="filter flex">
                 <h3 class="regular"><strong>Sort by:</strong> Recommended</h3>
                 <img src="./assets/img/shop-page/Icon-flecha.png" alt="flecha">
@@ -78,7 +92,7 @@
                 <main class="shop">
                         <div class="products">
                             <!-- -->
-                            <div class="big-product card">
+                            <a href="./product.html" class="big-product card">
                                 <div class="big-img-card">
                                     <h2 class="new">New!</h2>
                                     <img class="product" src="./assets/img/shop-page/suburn-relief.png" alt="producto">
@@ -92,10 +106,10 @@
                                         <h3 class="bold">Add To Cart</h3>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                             <!-- -->
                             <div class="card">
-                                <div class="img-card">
+                                <div class="img-card-shop">
                                     <img class="product" src="./assets/img/shop-page/ezcema-oil.png" alt="producto">
                                 </div>
                                 <div class="text-card">
@@ -110,7 +124,7 @@
                             </div>
                             <!-- -->
                             <div class="card">
-                                <div class="img-card">
+                                <div class="img-card-shop">
                                     <img class="product" src="./assets/img/shop-page/vitiglio-cream.png" alt="producto">
                                 </div>
                                 <div class="text-card">
@@ -123,10 +137,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- -->
                             <!--fila 1-->
                             <div class="card">
-                                <div class="img-card">
+                                <div class="img-card-shop">
                                     <img class="product" src="./assets/img/shop-page/vitiglio-treatment.png" alt="producto">
                                 </div>
                                 <div class="text-card">
@@ -140,7 +153,7 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="img-card">
+                                <div class="img-card-shop">
                                     <img class="product" src="./assets/img/shop-page/ezcema-cream.png" alt="producto">
                                 </div>
                                 <div class="text-card">
@@ -154,7 +167,7 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="img-card">
+                                <div class="img-card-shop">
                                     <img class="product" src="./assets/img/shop-page/acne-cream.png" alt="producto">
                                 </div>
                                 <div class="text-card">
@@ -169,7 +182,7 @@
                             </div>
                             <!--fila 2-->
                             <div class="card">
-                                <div class="img-card">
+                                <div class="img-card-shop">
                                     <img class="product" src="./assets/img/shop-page/ezcema-oil.png" alt="producto">
                                 </div>
                                 <div class="text-card">
@@ -183,7 +196,7 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="img-card">
+                                <div class="img-card-shop">
                                     <img class="product" src="./assets/img/shop-page/vitiglio-solution.png" alt="producto">
                                 </div>
                                 <div class="text-card">
@@ -197,7 +210,7 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="img-card">
+                                <div class="img-card-shop">
                                     <img class="product" src="./assets/img/shop-page/acne-cream-small.png" alt="producto">
                                 </div>
                                 <div class="text-card">
@@ -212,7 +225,7 @@
                             </div>
                             <!--fila 3-->
                             <div class="card">
-                                <div class="img-card">
+                                <div class="img-card-shop">
                                     <img class="product" src="./assets/img/shop-page/sunburn-balm.png" alt="producto">
                                 </div>
                                 <div class="text-card">
@@ -226,7 +239,7 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="img-card">
+                                <div class="img-card-shop">
                                     <img class="product" src="./assets/img/shop-page/vitiglio-cream.png" alt="producto">
                                 </div>
                                 <div class="text-card">
@@ -240,7 +253,7 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="img-card bg-roses">
+                                <div class="img-card-shop bg-roses">
                                     <img class="product" src="./assets/img/shop-page/sunburn-small.png" alt="producto">
                                 </div>
                                 <div class="text-card">
@@ -255,7 +268,7 @@
                             </div>
                             <!--fila 4-->
                             <div class="card">
-                                <div class="img-card">
+                                <div class="img-card-shop">
                                     <img class="product" src="./assets/img/shop-page/vitiglio-treatment.png" alt="producto">
                                 </div>
                                 <div class="text-card">
@@ -269,7 +282,7 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="img-card">
+                                <div class="img-card-shop">
                                     <img class="product" src="./assets/img/shop-page/ezcema-cream.png" alt="producto">
                                 </div>
                                 <div class="text-card">
@@ -283,7 +296,7 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="img-card">
+                                <div class="img-card-shop">
                                     <img class="product" src="./assets/img/shop-page/acne-cream.png " alt="producto">
                                 </div>
                                 <div class="text-card">

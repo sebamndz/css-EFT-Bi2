@@ -10,19 +10,19 @@
     </head>
     <body>
         <div id="promo">Free Standard Shipping on orders over $99.99</div>
-        <section class="inicio">
-            <header>
+        <section>
+            <header class="header-pc oscuro">
                 <nav class="nav-logo">
                     <ul>
                         <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#home">CONSULTATION</a></li>
+                        <li><a href="#CONSULTATION">CONSULTATION</a></li>
                         <li class="logo light"><h1>sooth</h1></li>
-                        <li><a href="#team"><img src="./assets/img/busqueda.png" alt="icono busqueda"></a></li>
-                        <li><a href="#portfolio">CART</a></li>
-                        <li><a href="#contact">LOGIN</a></li>
+                        <li><a href="#"><img src="./assets/img/busqueda.png" alt="icono busqueda"></a></li>
+                        <li><a href="#cart">CART</a></li>
+                        <li><a href="#login">LOGIN</a></li>
                     </ul>
                 </nav>
-                <nav id="nav-abajo">
+                <nav id="nav-abajo">    
                     <ul>
                         <li><a href="">Acne</a></li>
                         <li><a href="">Sun</a></li>
@@ -32,19 +32,24 @@
                     </ul>
                 </nav>
             </header>
-            <main class="container-inicio">
-                    <div class="texto">
-                        <h2 class="new-inicio">New!</h2>
-                        <h1>All Natural <br>
-                            Skin Remedies.
-                        </h1>
-                        <h3>A healthier you from the inside out. We’ve sourced the <br> 
-                            cleanest ingredients to create a line of clean skin care <br> 
-                            treatments that leave you feeling your best.
-                        </h3>
-                        <a href="./shop.html" class="shop-products button">Shop Products</a>
-                    </div>
-            </main>
+            <div class="header-responsive">
+                <div class="flex">
+                    <img src="./assets/img/responsive/menu.png" alt="menu">
+                    <h1 class="logo light">sooth</h1>
+                </div>
+                <div>
+                    <a href="#team"><img src="./assets/img/busqueda.png" alt="icono busqueda"></a>
+                    <a href="#portfolio">CART</a>
+                </div>
+            </div>
+            <div class="inicio flex">
+            </div>
+            <div class="container-inicio">
+                <div class="texto" id="shop-texto">
+                    <h1>All Natural <br> Psoriasis Remedies.</h1>
+                    <h3>A healthier you from the inside out. We’ve sourced the <br> cleanest ingredients to create a line of clean skin care <br> treatments that leave you feeling your best</h3>
+                </div>  
+            </div>
         </section>
         <section id="solutions">
             <h1>Solutions for all skin health</h1>
@@ -54,11 +59,11 @@
             <div class="container column">
                 <div id="options">
                     <h3><a href="">Most Popular</a></h3>
-                    <h3><a href="">Shop all products</a></h3>
+                    <h3><a href="./shop.html">Shop all products</a></h3>
                 </div>
                 <div class="cards">
-                    <div class="card">
-                        <div class="img-card">
+                    <a href="./product.html" class="card">
+                        <div class="img-card-product">
                             <h2 class="new">New!</h2>
                             <img class="hide" src="./assets/img/crema1.png" alt="producto">
                             <img class="hover" src="./assets/img/hover/acne-cream-hover.png" alt="acne cream">
@@ -72,10 +77,10 @@
                                 <h3 class="bold">Add To Cart</h3>
                             </div>
                         </div>
-                    </div>
+                    </a>
                     <!-- -->
                     <div class="card">
-                        <div class="img-card">
+                        <div class="img-card-product">
                             <h2 class="new">New!</h2>
                             <img class="hide" src="./assets/img/crema2.png" alt="producto">
                             <img class="hover" src="./assets/img/hover/vitiglio-solution.png" alt="acne cream">
@@ -92,7 +97,7 @@
                     </div>
                     <!-- -->
                     <div class="card">
-                        <div class="img-card crema3">
+                        <div class="img-card-product crema3">
                             <h2 class="new">New!</h2>
                             <img class="hide" src="./assets/img/crema3.png" alt="producto">
                             <img class="hover" src="./assets/img/hover/ezcema-cream.png" alt="acne cream">
@@ -109,7 +114,7 @@
                     </div>
                     <!-- -->
                     <div class="card">
-                        <div class="img-card">
+                        <div class="img-card-product">
                             <h2 class="new">15% off</h2>
                             <img class="hide" src="./assets/img/crema4.png" alt="producto">
                             <img class="hover" src="./assets/img/hover/sunburn-ointment.png" alt="acne cream">
@@ -188,51 +193,54 @@
             </div>
         </section>
         <section class="recent-news">
-            <div class="title2">
-                <h1>Recent news</h1>
-                <h3 class="regular">Explore our innovative skincare products </h3>
+            <div class="container flex column">
+                <div class="title2">
+                    <h1>Recent news</h1>
+                    <h3 class="regular">Explore our innovative skincare products </h3>
+                </div>
+                <div class="cards cards-recent container">
+                    <div class="card">
+                        <div class="img-card hombre">
+                        </div>
+                        <div class="text-card">
+                            <h3 class=" card-title bold">Lorem ipsum dolar et</h3>
+                            <h3 class="light">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</h3>
+                            <h3 class="read">Read</h3>
+                        </div>
+                    </div>
+                    <!-- -->
+                    <div class="card">
+                        <div class="img-card planta1">
+                        </div>
+                        <div class="text-card">
+                            <h3 class=" card-title bold">Lorem ipsum dolar et</h3>
+                            <h3 class="light">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</h3>
+                            <h3 class="read">Read</h3>
+                        </div>
+                    </div>
+                    <!-- -->
+                    <div class="card">
+                        <div class="img-card mujer">
+                        </div>
+                        <div class="text-card">
+                            <h3 class=" card-title bold">Lorem ipsum dolar et</h3>
+                            <h3 class="light">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</h3>
+                            <h3 class="read">Read</h3>
+                        </div>
+                    </div>
+                    <!-- -->
+                    <div class="card">
+                        <div class="img-card planta2">
+                        </div>
+                        <div class="text-card">
+                            <h3 class=" card-title bold">Lorem ipsum dolar et</h3>
+                            <h3 class="light">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</h3>
+                            <h3 class="read">Read</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="cards container">
-                <div class="card">
-                    <div class="img-card hombre">
-                    </div>
-                    <div class="text-card">
-                        <h3 class=" card-title bold">Lorem ipsum dolar et</h3>
-                        <h3 class="light">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</h3>
-                        <h3 class="read">Read</h3>
-                    </div>
-                </div>
-                <!-- -->
-                <div class="card">
-                    <div class="img-card planta1">
-                    </div>
-                    <div class="text-card">
-                        <h3 class=" card-title bold">Lorem ipsum dolar et</h3>
-                        <h3 class="light">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</h3>
-                        <h3 class="read">Read</h3>
-                    </div>
-                </div>
-                <!-- -->
-                <div class="card">
-                    <div class="img-card mujer">
-                    </div>
-                    <div class="text-card">
-                        <h3 class=" card-title bold">Lorem ipsum dolar et</h3>
-                        <h3 class="light">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</h3>
-                        <h3 class="read">Read</h3>
-                    </div>
-                </div>
-                <!-- -->
-                <div class="card">
-                    <div class="img-card planta2">
-                    </div>
-                    <div class="text-card">
-                        <h3 class=" card-title bold">Lorem ipsum dolar et</h3>
-                        <h3 class="light">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</h3>
-                        <h3 class="read">Read</h3>
-                    </div>
-                </div>
-            </div>
+
         </section>
         <section id="unete">
             <div class="subscribe container">
