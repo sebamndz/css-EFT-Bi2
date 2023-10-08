@@ -1,83 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.typekit.net/icj8qvc.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Document</title>
-</head>
-<body>
-    <section>
-        <header>
-            <nav class="nav-logo">
-                <ul>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#home">CONSULTATION</a></li>
-                    <li class="logo light"><h1>sooth</h1></li>
-                    <li><a href="#team"><img src="./assets/img/busqueda.png" alt="icono busqueda"></a></li>
-                    <li><a href="#portfolio">CART</a></li>
-                    <li><a href="#contact">LOGIN</a></li>
-                </ul>
-            </nav>
-            <nav id="nav-abajo">
-                <ul>
-                    <li><a href="">Acne</a></li>
-                    <li><a href="">Sun</a></li>
-                    <li><a href="">Ezcema</a></li>
-                    <li><a href="">Psoriasis</a></li>
-                    <li><a href="">Vitiligio</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="inicio-shop flex">
-            <div class="container-inicio">
-                <div class="texto" id="shop-texto">
-                    <h1>All Natural <br> Psoriasis Remedies.</h1>
-                    <h3>A healthier you from the inside out. We’ve sourced the <br> cleanest ingredients to create a line of clean skin care <br> treatments that leave you feeling your best</h3>
-                </div>  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.typekit.net/icj8qvc.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="./assets/style.css">
+        <title>Shop</title>
+    </head>
+    <body>
+        <section>
+            <header>
+                <nav class="nav-logo">
+                    <ul>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#home">CONSULTATION</a></li>
+                        <li class="logo light"><h1>sooth</h1></li>
+                        <li><a href="#team"><img src="./assets/img/busqueda.png" alt="icono busqueda"></a></li>
+                        <li><a href="#portfolio">CART</a></li>
+                        <li><a href="#contact">LOGIN</a></li>
+                    </ul>
+                </nav>
+                <nav id="nav-abajo">
+                    <ul>
+                        <li><a href="">Acne</a></li>
+                        <li><a href="">Sun</a></li>
+                        <li><a href="">Ezcema</a></li>
+                        <li><a href="">Psoriasis</a></li>
+                        <li><a href="">Vitiligio</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="inicio-shop flex">
+                <div class="container-inicio">
+                    <div class="texto" id="shop-texto">
+                        <h1>All Natural <br> Psoriasis Remedies.</h1>
+                        <h3>A healthier you from the inside out. We’ve sourced the <br> cleanest ingredients to create a line of clean skin care <br> treatments that leave you feeling your best</h3>
+                    </div>  
+                </div>
             </div>
-        </div>
-    </section>
-    <section id="shop">
-        <div class="container end">
-            <div class="filter flex">
-            <h3 class="regular"><strong>Sort by:</strong> Recommended</h3>
-            <img src="./assets/img/shop-page/Icon-flecha.png" alt="flecha">
+        </section>
+        <section id="shop-page">
+            <div class="container end">
+                <div class="filter flex">
+                <h3 class="regular"><strong>Sort by:</strong> Recommended</h3>
+                <img src="./assets/img/shop-page/Icon-flecha.png" alt="flecha">
+                </div>
             </div>
-        </div>
-        <aside class="categorias">
-            <div>
-                <h1>Acne</h1>
-                <h3>Ointment</h3>
-                <h3>Spot Treatment</h3>
-                <h3>Lotion</h3>
-                <h3>Cream</h3>
+            <div class="container flex">
+                <aside class="categorias">
+                    <div>
+                        <h1>Acne</h1>
+                        <h3>Ointment</h3>
+                        <h3>Spot Treatment</h3>
+                        <h3>Lotion</h3>
+                        <h3>Cream</h3>
+                    </div>
+                    <div>
+                        <h1>Sun</h1>
+                        <h3>Relief</h3>
+                        <h3>Cream</h3>
+                        <h3>Protection</h3>
+                    </div>
+                    <div>
+                        <h1>Ezcema</h1>
+                        <h3>Cream</h3>
+                        <h3>Oil</h3>
+                        <h3>Lotion</h3>
+                        <h3>Balm</h3>
+                    </div>
+                    <div>
+                        <h1>Psoriasis</h1>
+                        <h3>Balm</h3>
+                        <h3>Ointment</h3>
+                    </div>
+                </aside>
+                <main class="shop">
+                        <div class="products">
+                            <!-- -->
+                            <div class="big-product card">
+                                <div class="big-img-card">
+                                    <h2 class="new">New!</h2>
+                                    <img class="product" src="./assets/img/shop-page/suburn-relief.png" alt="producto">
+                                </div>
+                                <div class="text-card">
+                                    <h3 class=" card-title bold">Sunburn Relief</h3>
+                                    <h3 class="light">All Natural Ingredients.</h3>
+                                    <h3 class="price bold">$24.99</h3>
+                                    <div class="add-cart button">
+                                        <img src="./assets/img/cart.png" alt="icono carrito">
+                                        <h3 class="bold">Add To Cart</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -->
+                            <div class="card">
+                                <div class="img-card">
+                                    <img class="product" src="./assets/img/shop-page/ezcema-oil.png" alt="producto">
+                                </div>
+                                <div class="text-card">
+                                    <h3 class=" card-title bold">Ezcema Oil</h3>
+                                    <h3 class="light">All Natural Ingredients.</h3>
+                                    <h3 class="price bold">$24.99</h3>
+                                    <div class="add-cart button">
+                                        <img src="./assets/img/cart.png" alt="icono carrito">
+                                        <h3 class="bold">Add To Cart</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -->
+                            <div class="card">
+                                <div class="img-card">
+                                    <img class="product" src="./assets/img/shop-page/vitiglio-cream.png" alt="producto">
+                                </div>
+                                <div class="text-card">
+                                    <h3 class=" card-title bold">Vitiligio Balm</h3>
+                                    <h3 class="light">All Natural Ingredients.</h3>
+                                    <h3 class="price bold">$24.99</h3>
+                                    <div class="add-cart button">
+                                        <img src="./assets/img/cart.png" alt="icono carrito">
+                                        <h3 class="bold">Add To Cart</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -->
+                            <!--fila 1-->
+                            <div class="card">
+                                <div class="img-card">
+                                    <img class="product" src="./assets/img/shop-page/vitiglio-treatment.png" alt="producto">
+                                </div>
+                                <div class="text-card">
+                                    <h3 class=" card-title bold">Vitiligio Treatment</h3>
+                                    <h3 class="light">All Natural Ingredients.</h3>
+                                    <h3 class="price bold">$24.99</h3>
+                                    <div class="add-cart button">
+                                        <img src="./assets/img/cart.png" alt="icono carrito">
+                                        <h3 class="bold">Add To Cart</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="img-card">
+                                    <img class="product" src="./assets/img/shop-page/ezcema-cream.png" alt="producto">
+                                </div>
+                                <div class="text-card">
+                                    <h3 class=" card-title bold">Ezcema Cream</h3>
+                                    <h3 class="light">All Natural Ingredients.</h3>
+                                    <h3 class="price bold">$24.99</h3>
+                                    <div class="add-cart button">
+                                        <img src="./assets/img/cart.png" alt="icono carrito">
+                                        <h3 class="bold">Add To Cart</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="img-card">
+                                    <img class="product" src="./assets/img/shop-page/acne-cream.png" alt="producto">
+                                </div>
+                                <div class="text-card">
+                                    <h3 class=" card-title bold">Acne Cream</h3>
+                                    <h3 class="light">All Natural Ingredients.</h3>
+                                    <h3 class="price bold">$24.99</h3>
+                                    <div class="add-cart button">
+                                        <img src="./assets/img/cart.png" alt="icono carrito">
+                                        <h3 class="bold">Add To Cart</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--fila 2-->
+                            <div class="card">
+                                <div class="img-card">
+                                    <img class="product" src="./assets/img/shop-page/ezcema-oil.png" alt="producto">
+                                </div>
+                                <div class="text-card">
+                                    <h3 class=" card-title bold">Ezcema Oil</h3>
+                                    <h3 class="light">All Natural Ingredients.</h3>
+                                    <h3 class="price bold">$24.99</h3>
+                                    <div class="add-cart button">
+                                        <img src="./assets/img/cart.png" alt="icono carrito">
+                                        <h3 class="bold">Add To Cart</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="img-card">
+                                    <img class="product" src="./assets/img/shop-page/vitiglio-solution.png" alt="producto">
+                                </div>
+                                <div class="text-card">
+                                    <h3 class=" card-title bold">Vitiligio Solution</h3>
+                                    <h3 class="light">All Natural Ingredients.</h3>
+                                    <h3 class="price bold">$24.99</h3>
+                                    <div class="add-cart button">
+                                        <img src="./assets/img/cart.png" alt="icono carrito">
+                                        <h3 class="bold">Add To Cart</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="img-card">
+                                    <img class="product" src="./assets/img/shop-page/acne-cream-small.png" alt="producto">
+                                </div>
+                                <div class="text-card">
+                                    <h3 class=" card-title bold">Acne Cream</h3>
+                                    <h3 class="light">All Natural Ingredients.</h3>
+                                    <h3 class="price bold">$24.99</h3>
+                                    <div class="add-cart button">
+                                        <img src="./assets/img/cart.png" alt="icono carrito">
+                                        <h3 class="bold">Add To Cart</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--fila 3-->
+                            <div class="card">
+                                <div class="img-card">
+                                    <img class="product" src="./assets/img/shop-page/sunburn-balm.png" alt="producto">
+                                </div>
+                                <div class="text-card">
+                                    <h3 class=" card-title bold">Sunburn Balm</h3>
+                                    <h3 class="light">All Natural Ingredients.</h3>
+                                    <h3 class="price bold">$24.99</h3>
+                                    <div class="add-cart button">
+                                        <img src="./assets/img/cart.png" alt="icono carrito">
+                                        <h3 class="bold">Add To Cart</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="img-card">
+                                    <img class="product" src="./assets/img/shop-page/vitiglio-cream.png" alt="producto">
+                                </div>
+                                <div class="text-card">
+                                    <h3 class=" card-title bold">Vitiligio Balm</h3>
+                                    <h3 class="light">All Natural Ingredients.</h3>
+                                    <h3 class="price bold">$24.99</h3>
+                                    <div class="add-cart button">
+                                        <img src="./assets/img/cart.png" alt="icono carrito">
+                                        <h3 class="bold">Add To Cart</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="img-card bg-roses">
+                                    <img class="product" src="./assets/img/shop-page/sunburn-small.png" alt="producto">
+                                </div>
+                                <div class="text-card">
+                                    <h3 class=" card-title bold">Sunburn Relief</h3>
+                                    <h3 class="light">All Natural Ingredients.</h3>
+                                    <h3 class="price bold">$24.99</h3>
+                                    <div class="add-cart button">
+                                        <img src="./assets/img/cart.png" alt="icono carrito">
+                                        <h3 class="bold">Add To Cart</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--fila 4-->
+                            <div class="card">
+                                <div class="img-card">
+                                    <img class="product" src="./assets/img/shop-page/vitiglio-treatment.png" alt="producto">
+                                </div>
+                                <div class="text-card">
+                                    <h3 class=" card-title bold">Vitiligio Treatment</h3>
+                                    <h3 class="light">All Natural Ingredients.</h3>
+                                    <h3 class="price bold">$24.99</h3>
+                                    <div class="add-cart button">
+                                        <img src="./assets/img/cart.png" alt="icono carrito">
+                                        <h3 class="bold">Add To Cart</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="img-card">
+                                    <img class="product" src="./assets/img/shop-page/ezcema-cream.png" alt="producto">
+                                </div>
+                                <div class="text-card">
+                                    <h3 class=" card-title bold">Ezcema Cream</h3>
+                                    <h3 class="light">All Natural Ingredients.</h3>
+                                    <h3 class="price bold">$24.99</h3>
+                                    <div class="add-cart button">
+                                        <img src="./assets/img/cart.png" alt="icono carrito">
+                                        <h3 class="bold">Add To Cart</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="img-card">
+                                    <img class="product" src="./assets/img/shop-page/acne-cream.png " alt="producto">
+                                </div>
+                                <div class="text-card">
+                                    <h3 class=" card-title bold">Acne Cream</h3>
+                                    <h3 class="light">All Natural Ingredients.</h3>
+                                    <h3 class="price bold">$24.99</h3>
+                                    <div class="add-cart button">
+                                        <img src="./assets/img/cart.png" alt="icono carrito">
+                                        <h3 class="bold">Add To Cart</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </main>
             </div>
-            <div>
-                <h1>Sun</h1>
-                <h3>Relief</h3>
-                <h3>Cream</h3>
-                <h3>Protection</h3>
+        </section>
+        <section>
+            <div id="shop-more-container">
+                <div class="first row">
+                    <div class="texto blanco">
+                        <h1>Clean products that <br> deliver better solutions</h1>
+                        <h3>A healthier you from the inside out. We’ve sourced the <br> 
+                            cleanest ingredients to create a line of clean skin care <br> 
+                            treatments that leave you feeling your best.
+                        </h3>
+                        <h2 class="shop-products button-blanco">Shop more</h2>
+                    </div>
+                </div>
+                    <div id="manos"></div>
             </div>
-            <div>
-                <h1>Ezcema</h1>
-                <h3>Cream</h3>
-                <h3>Oil</h3>
-                <h3>Lotion</h3>
-                <h3>Balm</h3>
+        </section>
+        <section id="unete">
+            <div class="subscribe container">
+                <h1>Join the Sooth family</h1>
+                <h3>Lorem ipsum dolor sit amet, consetetur <br> sadipscing elitr, sed diam nonumy</h3>
+                <form>
+                    <input type="text" placeholder="Correo electrónico">
+                    <input type="submit" value="Enviar">
+                </form>
             </div>
-            <div>
-                <h1>Psoriasis</h1>
-                <h3>Balm</h3>
-                <h3>Ointment</h3>
+        </section>
+        <footer class="flex">
+            <div class="container footer">
+                <div class="logo-form">
+                    <div class="logo-text">
+                        <h1 class="light">sooth</h1>
+                        <h3>Explore our innovative skincare products </h3>
+                    </div>
+                    <form class="form-blanco">
+                        <input type="text" placeholder="Correo electrónico">
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+                <div class="footer-nav flex">
+                    <div id="nav-shop">
+                        <h2>SHOP</h2>
+                        <ul>
+                            <li><a>Lorem ipsum al</a></li>
+                            <li><a>Dolar at </a></li>
+                            <li><a>Veraotio</a></li>
+                            <li><a>Chauloe</a></li>
+                        </ul>
+                    </div>
+                    <div id="nav-about">
+                        <h2>ABOUT</h2>
+                        <ul>
+                            <li><a>About Us</a></li>
+                            <li><a>Sooth Stories (Blog)</a></li>
+                            <li><a>Contact Us</a></li>
+                            <li><a>Learn More</a></li>
+                            <li><a>Stores</a></li>
+                        </ul>
+                    </div>
+                    <div id="nav-more">
+                        <h2>MORE</h2>
+                        <a>Dolar at </a>
+                        <a>Lorem at al</a>
+                        <a>Veraotio</a>
+                    </div>
+                </div>
             </div>
-        </aside>
-        <main>
-            
-        </main>
-    </section>
-
-</body>
+            <div class="copy flex container">
+                <div class="rights">
+                    <h3 class="regular">SOOTH ALL RIGHTS RESERVED</h3>
+                    <ul class="blanco">
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms of Use</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="redes-sociales">
+                    <img src="./assets/img/redes.png" alt="redes sociales">
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
