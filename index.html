@@ -4,12 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://use.typekit.net/icj8qvc.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="./assets/style.css">
         <title>Entrega Final</title>
     </head>
     <body>
         <div id="promo">Free Standard Shipping on orders over $99.99</div>
-        <section id="inicio">
+        <section class="inicio">
             <header>
                 <nav class="nav-logo">
                     <ul>
@@ -31,9 +32,9 @@
                     </ul>
                 </nav>
             </header>
-            <main class="container">
-                    <div class="texto inicio">
-                        <h2 class="new">New!</h2>
+            <main class="container-inicio">
+                    <div class="texto">
+                        <h2 class="new-inicio">New!</h2>
                         <h1>All Natural <br>
                             Skin Remedies.
                         </h1>
@@ -41,7 +42,7 @@
                             cleanest ingredients to create a line of clean skin care <br> 
                             treatments that leave you feeling your best.
                         </h3>
-                        <h2 class="shop-products button">Shop Products</h2>
+                        <a href="./shop.html" class="shop-products button">Shop Products</a>
                     </div>
             </main>
         </section>
@@ -55,11 +56,12 @@
                     <h3><a href="">Most Popular</a></h3>
                     <h3><a href="">Shop all products</a></h3>
                 </div>
-                <div class="cards container">
+                <div class="cards">
                     <div class="card">
                         <div class="img-card">
                             <h2 class="new">New!</h2>
-                            <img src="./assets/img/crema1.png" alt="producto">
+                            <img class="hide" src="./assets/img/crema1.png" alt="producto">
+                            <img class="hover" src="./assets/img/hover/acne-cream-hover.png" alt="acne cream">
                         </div>
                         <div class="text-card">
                             <h3 class=" card-title bold">Acne Cream</h3>
@@ -75,10 +77,11 @@
                     <div class="card">
                         <div class="img-card">
                             <h2 class="new">New!</h2>
-                            <img src="./assets/img/crema2.png" alt="producto">
+                            <img class="hide" src="./assets/img/crema2.png" alt="producto">
+                            <img class="hover" src="./assets/img/hover/vitiglio-solution.png" alt="acne cream">
                         </div>
                         <div class="text-card">
-                            <h3 class=" card-title bold">Acne Cream</h3>
+                            <h3 class=" card-title bold">Vitiligio Solution</h3>
                             <h3 class="light">All Natural Ingredients.</h3>
                             <h3 class="price bold">$24.99</h3>
                             <div class="add-cart button">
@@ -91,10 +94,11 @@
                     <div class="card">
                         <div class="img-card crema3">
                             <h2 class="new">New!</h2>
-                            <img src="./assets/img/crema3.png" alt="producto">
+                            <img class="hide" src="./assets/img/crema3.png" alt="producto">
+                            <img class="hover" src="./assets/img/hover/ezcema-cream.png" alt="acne cream">
                         </div>
                         <div class="text-card">
-                            <h3 class=" card-title bold">Acne Cream</h3>
+                            <h3 class=" card-title bold">Ezcema Cream</h3>
                             <h3 class="light">All Natural Ingredients.</h3>
                             <h3 class="price bold">$24.99</h3>
                             <div class="add-cart button">
@@ -107,10 +111,11 @@
                     <div class="card">
                         <div class="img-card">
                             <h2 class="new">15% off</h2>
-                            <img src="./assets/img/crema4.png" alt="producto">
+                            <img class="hide" src="./assets/img/crema4.png" alt="producto">
+                            <img class="hover" src="./assets/img/hover/sunburn-ointment.png" alt="acne cream">
                         </div>
                         <div class="text-card">
-                            <h3 class=" card-title bold">Acne Cream</h3>
+                            <h3 class=" card-title bold">Sunburn Ointment</h3>
                             <h3 class="light">All Natural Ingredients.</h3>
                             <h3 class="price bold">$24.99</h3>
                             <div class="add-cart button">
@@ -163,8 +168,140 @@
         </section>
         <section>
             <div class="container centrado">
-                <img src="./assets/img/instagram.png" alt="">
+                <img src="./assets/img/instagram.png" alt="logo instagram">
             </div>
         </section>
+        <section class="fotos">
+            <div class="container">
+                <div class="galeria">
+                    <img class="first-galery-img" src="./assets/img/galeria/alex-loup-mwINQsW2KJs-unsplash.png" alt="">
+                    <div class="first-img group">
+                    <img src="./assets/img/galeria/linh-ha-nt6KRD9im7A-unsplash.png" alt="">
+                    <img src="./assets/img/galeria/applying-body-lotion-care-cosmetic-product-286951.png" alt="">
+                    </div>
+                    <div class="second-img group">
+                        <img src="./assets/img/galeria/miriam-espacio-GdSsWvVT2Hc-unsplash.png" alt="">
+                        <img src="./assets/img/galeria/olia-bondarenko-6DY-VfBVnvE-unsplash.png" alt="">
+                    </div>
+                    <img class="second-galery-img" src="./assets/img/galeria/avinash-kumar-xT7OuIFew3Q-unsplash.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="recent-news">
+            <div class="title2">
+                <h1>Recent news</h1>
+                <h3>Explore our innovative skincare products </h3>
+            </div>
+            <div class="cards container">
+                <div class="card">
+                    <div class="img-card">
+                        <img src="./assets/img/recent-news/photo-1541980162-7db2c25d5b3b.png" alt="">
+                    </div>
+                    <div class="text-card">
+                        <h3 class=" card-title bold">Lorem ipsum dolar et</h3>
+                        <h3 class="light">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</h3>
+                        <h3 class="read">Read</h3>
+                    </div>
+                </div>
+                <!-- -->
+                <div class="card">
+                    <div class="img-card">
+                        <img src="./assets/img/recent-news/yue-iris-eP6jHmYsAyA-unsplash.png" alt="">
+                    </div>
+                    <div class="text-card">
+                        <h3 class=" card-title bold">Lorem ipsum dolar et</h3>
+                        <h3 class="light">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</h3>
+                        <h3 class="read">Read</h3>
+                    </div>
+                </div>
+                <!-- -->
+                <div class="card">
+                    <div class="img-card crema3">
+                        <img src="./assets/img/recent-news/jessica-felicio-QS9ZX5UnS14-unsplash.png" alt="">
+                    </div>
+                    <div class="text-card">
+                        <h3 class=" card-title bold">Lorem ipsum dolar et</h3>
+                        <h3 class="light">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</h3>
+                        <h3 class="read">Read</h3>
+                    </div>
+                </div>
+                <!-- -->
+                <div class="card">
+                    <div class="img-card">
+                        <img src="./assets/img/recent-news/annie-spratt-ncQ2sguVlgo-unsplash.png" alt="">
+                    </div>
+                    <div class="text-card">
+                        <h3 class=" card-title bold">Lorem ipsum dolar et</h3>
+                        <h3 class="light">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</h3>
+                        <h3 class="read">Read</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="unete">
+            <div class="subscribe container">
+                <h1>Join the Sooth family</h1>
+                <img src="./assets/img/linea.png" alt="linea gris">
+                <h3>Lorem ipsum dolor sit amet, consetetur <br> sadipscing elitr, sed diam nonumy</h3>
+                <form>
+                    <input type="text" placeholder="Correo electrónico">
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+        <footer class="flex">
+            <div class="container footer">
+                <div class="logo-form">
+                    <div class="logo-text">
+                        <h1 class="light">sooth</h1>
+                        <h3>Explore our innovative skincare products </h3>
+                    </div>
+                    <form class="form-blanco">
+                        <input type="text" placeholder="Correo electrónico">
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+                <div class="footer-nav flex">
+                    <div id="nav-shop">
+                        <h2>SHOP</h2>
+                        <ul>
+                            <li><a>Lorem ipsum al</a></li>
+                            <li><a>Dolar at </a></li>
+                            <li><a>Veraotio</a></li>
+                            <li><a>Chauloe</a></li>
+                        </ul>
+                    </div>
+                    <div id="nav-about">
+                        <h2>ABOUT</h2>
+                        <ul>
+                            <li><a>About Us</a></li>
+                            <li><a>Sooth Stories (Blog)</a></li>
+                            <li><a>Contact Us</a></li>
+                            <li><a>Learn More</a></li>
+                            <li><a>Stores</a></li>
+                        </ul>
+                    </div>
+                    <div id="nav-more">
+                        <h2>MORE</h2>
+                        <a>Dolar at </a>
+                        <a>Lorem at al</a>
+                        <a>Veraotio</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copy flex">
+                <div class="rights">
+                    <h3 class="regular">SOOTH ALL RIGHTS RESERVED</h3>
+                    <ul class="blanco">
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms of Use</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="redes-sociales">
+                    <img src="./assets/img/redes.png" alt="redes sociales">
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
